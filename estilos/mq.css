@@ -19,6 +19,7 @@ TV: maior que 1201px */
 
     section#login {
         width: 80vw;
+        height: 300px;
     }
     
     div#imagem {
@@ -29,13 +30,14 @@ TV: maior que 1201px */
 
     div#formulario {
         float: right;
-        width: 65%;
+        width: 70%;
     }
 }
 
 @media screen and (min-width: 769px) {
     section#login {
         width: 730px;
+        height: 320px;
     }
 
     div#imagem {
@@ -54,6 +56,6 @@ TV: maior que 1201px */
     }
 
     div#formulario p {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 }
